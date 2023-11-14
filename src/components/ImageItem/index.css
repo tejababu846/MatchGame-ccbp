@@ -1,0 +1,30 @@
+.thumbnail-image-container {
+  margin: 4px;
+  cursor: pointer;
+}
+
+.thumbnail-image {
+  height: 85px;
+  width: 85px;
+}
+
+.thumbnail-image-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .thumbnail-image-container {
+    margin: 4px;
+    cursor: pointer;
+  }
+
+  .thumbnail-image {
+    height: 73px;
+    width: 73px;
+  }
+}

@@ -1,0 +1,52 @@
+.each-button-list-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tab-button {
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Roboto;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.active-tab {
+  border-bottom: 3px solid #fec653;
+}
+.active-button {
+  color: #fec653;
+}
+
+@media (max-width: 768px) {
+  .each-button-list-item {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+
+  .tab-button {
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Roboto;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+  }
+  .active-tab {
+    border-bottom: 2px solid #fec653;
+  }
+  .active-button {
+    color: #fec653;
+  }
+}
